@@ -20,6 +20,10 @@ brew install --cask outmakeapp/tap/outmake
 | **Voices** | Qwen3-TTS speaks in Chinese, English, Japanese, Korean, German and French. Kokoro, Kitten, Piper, Supertonic and Pocket TTS run on sherpa-onnx and MLX, and ElevenLabs works with your own key. One set of cues (a laugh, a whisper, a pause) works across every voice. |
 | **Dictation** | Hold the right Option key and speak; the words are typed where the cursor is, in any app. You can talk to it in 100+ languages. |
 
+## Which models run on your Mac
+
+Every model on [outmake.app/models](https://outmake.app/models) says whether it fits your Mac, the size to get and how fast it runs. There is a page for each Mac: [M1 with 8 GB](https://outmake.app/macs/m1-8gb), [M2 with 16 GB](https://outmake.app/macs/m2-16gb), [M4 with 16 GB](https://outmake.app/macs/m4-16gb), [M4 Pro with 24 GB](https://outmake.app/macs/m4-pro-24gb), [M3 Max with 64 GB](https://outmake.app/macs/m3-max-64gb) and [every other Mac](https://outmake.app/macs).
+
 ## Measured on a MacBook Pro with M1 Pro and 16 GB
 
 - Speculative decoding took a code edit from 30.5 to 69.1 words a second.
@@ -35,7 +39,7 @@ brew install --cask outmakeapp/tap/outmake
 - **Native:** 166,000 lines of Swift, no Electron, 134 MB installed, and it lives in the Mac's notch.
 - **Private by design:** a model on the Mac can't open files, run commands or go online. The chat engine listens only on 127.0.0.1 with a key made at each launch, API keys stay in the macOS Keychain, and Outmake asks before anything goes to a cloud company.
 
-Free public beta (0.4, 12 Oct 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
+Free public beta (0.6, 22 Oct 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
 
 [Release notes](https://outmake.app/releases) · [Help](https://outmake.app/help) · [Press kit](https://outmake.app/press) · [Privacy](https://outmake.app/privacy)
 
