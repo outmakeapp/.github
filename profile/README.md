@@ -14,7 +14,7 @@ brew install --cask outmakeapp/tap/outmake
 
 | Kind | Models and engines |
 |---|---|
-| **Chat** | Open models in GGUF format on llama.cpp with Metal, including the Qwen, Gemma, DeepSeek, Kimi and MiniMax families. The Models catalog lists 4,200+ models and every published size of each, marked Runs great, Runs well or Too big for that Mac. |
+| **Chat** | Open models in GGUF format on llama.cpp with Metal, including the Qwen, Gemma, DeepSeek, Kimi and MiniMax families. The Models catalog lists 4,000+ models and every published size of each, marked Runs great, Runs well or Too big for that Mac. |
 | **Pictures** | stable-diffusion.cpp runs Stable Diffusion 1.5, SDXL, Pony, Illustrious, FLUX.1, FLUX.1 Krea, FLUX.2, FLUX.2 klein, Chroma, Z-Image, Qwen-Image, Anima and Krea 2, plus thousands of community styles (LoRAs) from Civitai. FLUX.2 and FLUX.2 klein also edit pictures. |
 | **Video** | Wan 2.1, Wan 2.2 (text to video and picture to video) and LTX-Video. |
 | **Voices** | Qwen3-TTS speaks in Chinese, English, Japanese, Korean, German and French. Kokoro, Kitten, Piper, Supertonic and Pocket TTS run on sherpa-onnx and MLX, and ElevenLabs works with your own key. One set of cues (a laugh, a whisper, a pause) works across every voice. |
@@ -32,14 +32,17 @@ Every model on [outmake.app/models](https://outmake.app/models) says whether it 
 
 ## Also in the app
 
+- **Workflows:** build steps across any models on one canvas, run them, and keep them. Runs on a schedule, on new files in a folder, or from a hot key or Shortcut.
+- **Meetings:** captions in up to two languages and live translation for a call. Nothing joins the call.
+- **Models on another drive:** keep each model where you have room, and move it later.
 - **Studio tools:** upscaling with MetalFX, a detail upscaler, storyboards with a narration voice, and full control of steps, guidance, sampler, scheduler, size and seed, saved as presets.
 - **Outmake Bench** ranks local models for each Mac by quality and speed.
 - **Bring your own plan:** chat with Claude, ChatGPT, Gemini and OpenCode through the plan or key you already pay for, at no extra charge.
 - A browser in each chat, one memory shared by every agent, Passwords sealed with Touch ID, and ⌘K search across everything.
-- **Native:** 166,000 lines of Swift, no Electron, 134 MB installed, and it lives in the Mac's notch.
+- **Native:** 225,000 lines of Swift, no Electron, 134 MB installed, and it lives in the Mac's notch.
 - **Private by design:** a model on the Mac can't open files, run commands or go online. The chat engine listens only on 127.0.0.1 with a key made at each launch, API keys stay in the macOS Keychain, and Outmake asks before anything goes to a cloud company.
 
-Free public beta (0.6, 22 Oct 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
+Free public beta (0.7, 28 Oct 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
 
 [Release notes](https://outmake.app/releases) · [Help](https://outmake.app/help) · [Press kit](https://outmake.app/press) · [Privacy](https://outmake.app/privacy)
 
