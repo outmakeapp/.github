@@ -42,7 +42,7 @@ Every model on [outmake.app/models](https://outmake.app/models) says whether it 
 - **Native:** 225,000 lines of Swift, no Electron, 134 MB installed, and it lives in the Mac's notch.
 - **Private by design:** a model on the Mac can't open files, run commands or go online. The chat engine listens only on 127.0.0.1 with a key made at each launch, API keys stay in the macOS Keychain, and Outmake asks before anything goes to a cloud company.
 
-Free public beta (0.8.3, 3 Nov 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
+Free public beta (0.8.4, 4 Nov 2026). Watch the [launch film](https://outmake.app/media/film.mp4).
 
 [Release notes](https://outmake.app/releases) · [Help](https://outmake.app/help) · [Press kit](https://outmake.app/press) · [Privacy](https://outmake.app/privacy)
 
